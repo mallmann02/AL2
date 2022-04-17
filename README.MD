@@ -1,8 +1,8 @@
 ## Members
-- Leonardo Mallmann
-- Arthur Bianchessi
-- Caetano Muller
-- Euzebio Hanzel
+- Leonardo Mallmann 21104259
+- Arthur Bianchessi 21100164
+- Caetano Muller 21109037
+- Euzebio Hanzel 21180401
 
 ## The project is online in the address: https://movies-al2.herokuapp.com/
 
