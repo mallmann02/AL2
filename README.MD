@@ -4,10 +4,11 @@
 - Caetano Muller
 - Euzebio Hanzel
 
-### JSON FIX
-File used to prepare the json file, doing pertinent transformations and treating empty data.
+## The project is online in the address: https://movies-al2.herokuapp.com/
 
-# Mini Doc API
+---
+
+## Mini Doc API
 ## Routes
 - ### Method (Get)
   - /movie : Return All Movies
