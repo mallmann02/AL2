@@ -1,3 +1,9 @@
+## Members
+- Leonardo Mallmann
+- Arthur Bianchessi
+- Caetano Muller
+- Euzebio Hanzel
+
 ### JSON FIX
 File used to prepare the json file, doing pertinent transformations and treating empty data.
 
@@ -48,7 +54,9 @@ File used to prepare the json file, doing pertinent transformations and treating
 ---
 
 ## Starting the Server Locally
-`npm run dev` -> It will start the Nodejs server
+- Clone this repository into your machine using git clone (SSH or HTTP)
+- Install the packages by running `npm install` in root folder of the project
+- `npm run dev` -> It will start the Nodejs server
 ### Important
 - You will need to install mongodb in your machine.
 - Set the enviroment variables by creating a .env file. Obs: I left a .env.template file in project with the right key names so that you can just insert the values.
