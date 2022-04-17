@@ -1,5 +1,4 @@
 const moviesModel = require('../models/movie');
-const seeder = require('../seed');
 
 const create = async (req, res) => {
   const movie = req.body;
@@ -39,12 +38,6 @@ const remove = async (req, res) => {
 
   return res.status(200).json({ message: 'Movie successfully deleted' });
 };
-
-const seed = async (_req, res) => {
-  await seeder();
-
-  res.status(200).json({ message: 'Seed done' });
-}
 
 const search = async (req, res) => {
   const queryObj = req.query;

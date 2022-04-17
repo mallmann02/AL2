@@ -14,7 +14,6 @@ app.get('/movie', moviesController.getAll);
 app.get('/movie/search/', moviesController.search);
 app.get('/movie/:id', moviesController.find);
 app.post('/movie', moviesController.create);
-app.get('/admin/seed', moviesController.seed);
 app.delete('/movie/:id', moviesController.remove);
 app.put('/movie/:id', moviesController.edit);
 
