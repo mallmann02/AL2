@@ -54,7 +54,6 @@ module.exports = {
   getAll,
   find,
   edit,
-  seed,
   remove,
   search,
 };
