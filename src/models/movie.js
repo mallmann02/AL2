@@ -4,7 +4,7 @@ const connection = require('./connection');
 
 const insert = async (movie) => connection()
   .then((db) => db.collection('movies').insertOne(movie))
-  .then((result) => result.ops[0]);
+  .then((result) => result.insertedId);
 
 const getAll = async () => connection()
   .then((db) => db.collection('movies').find().toArray())

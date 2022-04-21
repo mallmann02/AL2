@@ -3,9 +3,9 @@ const moviesModel = require('../models/movie');
 const create = async (req, res) => {
   const movie = req.body;
 
-  const createdMovie = await moviesModel.insert(movie);
+  const insertedId = await moviesModel.insert(movie);
 
-  return res.status(201).json({ createdMovie });
+  return res.status(201).json({ message: `Document created with ID: ${insertedId}` });
 };
 
 const getAll = async (_req, res) => {
